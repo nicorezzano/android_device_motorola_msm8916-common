@@ -76,6 +76,7 @@ BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
+TARGET_CRYPTFS_HW_PATH := device/motorola/msm8916-common/cryptfs_hw
 
 # Display
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
