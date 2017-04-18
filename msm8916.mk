@@ -74,18 +74,18 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf
 
 # Browser
-PRODUCT_PACKAGES += \
-    Gello
+#PRODUCT_PACKAGES += \
+#    Gello
 
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8916 \
-    libbson \
-    Snap
+    libbson
+#    Snap
 
 # CMActions
-PRODUCT_PACKAGES += \
-    CMActions
+#PRODUCT_PACKAGES += \
+#    CMActions
 
 # Display
 PRODUCT_PACKAGES += \
