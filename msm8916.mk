@@ -80,8 +80,8 @@ PRODUCT_COPY_FILES +=  \
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8916 \
-    libbson
-#    Snap
+    libbson \
+    SnapdragonCamera
 
 # CMActions
 #PRODUCT_PACKAGES += \
